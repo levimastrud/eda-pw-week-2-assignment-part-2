@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We declare a variable called name and give it the string value of Dane.
+// We created a conditional statement that checks if the name variable equals 'Mary' and if it does then we log to the console
+// "Hi, Mary!". Otherwise we log "How do you do?" to the console.
 //
 
 //CODE
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declared two variables, secret and code. Secret is an empty string and code is set to the integer 123.
+// We created a conditional statement that checks if code equals 123. If it does, then we set secret to the string 'super'
+// and we set code to equal code's value * 2(now totalling 246). 
+// We also created an additional conditional statement that checks if the code variable is greater than 250. If it is, the secret 
+// variable is then set to equal the string value 'duper'. 
 
 //CODE
 /*
@@ -70,10 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We created a conditional statement that uses three variables; isStudent, age, and zip. isStudent is set to true, age is set to
+// 34 and zip is set to 55407. The conditional statement checks first if isStudent is true and if zip is over 8000. If both of those
+// are true, then it will log to the console 'You're a student on the West Coast!'. If only isStudent is true, then it will log 'Welcome to Prime!'
+// It also checks if isStudent is false and if age is less than 30, then is will log to the console ''What are your hobbies?'.
+// If none of these conditions are met, it will simply log "How about the weather" to the console. 
 
 //CODE
 /*
@@ -130,6 +132,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+FIX = colorOne and colorTwo are mislabeled. Also, the condtional statement should also set colorTwo to 'purple' aswell, not just colorOne.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -143,6 +146,7 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+//FIX = To check if they are both true, you should use the && operator, not ||.
 /*
 let temp = 40;
 const time = 4;
@@ -156,6 +160,7 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+//FIX = The outputs should be reversed. 'Entry' should output if minAge is <= age. 
 /*
 let age = 21;
 const minAge = 21;
