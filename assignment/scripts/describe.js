@@ -29,7 +29,7 @@ if (number >= 2) {
 // We declare a variable called name and give it the string value of Dane.
 // We created a conditional statement that checks if the name variable equals 'Mary' and if it does then we log to the console
 // "Hi, Mary!". Otherwise we log "How do you do?" to the console.
-//
+// In this case, since name does NOT equal Mary, we log to the console "How do you do?".
 
 //CODE
 /*
@@ -50,6 +50,8 @@ if (name === 'Mary') {
 // and we set code to equal code's value * 2(now totalling 246). 
 // We also created an additional conditional statement that checks if the code variable is greater than 250. If it is, the secret 
 // variable is then set to equal the string value 'duper'. 
+// Since code DOES equal 123, secret will be set to 'super' and the value of code will be multiplied by 2 (totalling 246). However, 
+// because this value is not greater than 250, the following code block will not run and nothing will be logged to the console.
 
 //CODE
 /*
@@ -76,6 +78,7 @@ console.log(secret)
 // are true, then it will log to the console 'You're a student on the West Coast!'. If only isStudent is true, then it will log 'Welcome to Prime!'
 // It also checks if isStudent is false and if age is less than 30, then is will log to the console ''What are your hobbies?'.
 // If none of these conditions are met, it will simply log "How about the weather" to the console. 
+// In this case when the code is ran it will log 'Welcome to Prime!' to the console, because it meets the isStudent === true requirement. 
 
 //CODE
 /*
